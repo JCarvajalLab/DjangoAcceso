@@ -1,17 +1,45 @@
 {% extends 'base.html' %}
+
+{% block title %}
+Catálogo
+{% endblock %}
+
 {% block content %}
 
-<h2>Catálogo de Productos</h2>
+<h2 class="mb-4">
+    Catálogo de Productos
+</h2>
 
-<ul>
+<div class="row">
+
     {% for producto in productos %}
-        <li>
-            {{ producto.nombre }} -
-            ${{ producto.precio }}
-        </li>
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">
+                        {{ producto.nombre }}
+                    </h5>
+                    <p class="card-text">
+                        {{ producto.descripcion }}
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <strong>
+                        ${{ producto.precio }}
+                    </strong>
+                </div>
+            </div>
+        </div>
+
     {% empty %}
-        <li>No existen productos.</li>
+
+        <div class="col-12">
+            <div class="alert alert-warning">
+                No existen productos registrados.
+            </div>
+        </div>
     {% endfor %}
-</ul>
+
+</div>
 
 {% endblock %}
