@@ -5,8 +5,8 @@
     - [Tabla de contenidos](#tabla-de-contenidos)
     - [Instrucciones](#instrucciones)
     - [Instalación y ejecución del proyecto](#instalación-y-ejecución-del-proyecto)
-    - [Explicacion](#explicacion)
-    - [Evidencia](#evidencia)
+    - [Credenciales de prueba](#credenciales-de-prueba)
+    - [Vistas de accesos](#vistas-de-accesos)
     - [Estructura del proyecto](#estructura-del-proyecto)
     - [Autor](#autor)
 
@@ -91,27 +91,27 @@ http://127.0.0.1:8000/
 ## Vistas de accesos 
 ### Vista del HOME
 
-![alt text](/actividad_m6_l5/evidencia/image1.png)
+![alt text](evidencia/image1.png)
 
 ---
 ### Usuario Administrador loggeado
 
-![alt text](/actividad_m6_l5/evidencia/image2.png)
+![alt text](evidencia/image2.png)
 
 ---
 #### Usuario Administrador con acceso a `Administracion de Django`
 
-![alt text](/actividad_m6_l5/evidencia/image5.png)
+![alt text](evidencia/image5.png)
 
 ---
 ### Usuario Cliente loggeado
 
-![alt text](/actividad_m6_l5/evidencia/image3.png)
+![alt text](evidencia/image3.png)
 
 ---
 #### Usuario sin acceso a panel de `Administracion de Django`
 
-![alt text](/actividad_m6_l5/evidencia/image4.png)
+![alt text](evidencia/image4.png)
 
 ---
 
