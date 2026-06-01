@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Panel Administrativo
+{% endblock %}
+
+{% block content %}
+
+<h2>Panel Administrativo</h2>
+
+<p>
+    Esta sección requiere permisos especiales.
+</p>
+
+<table border="1">
+    <tr>
+        <th>Nombre</th>
+        <th>Precio</th>
+    </tr>
+
+    {% for producto in productos %}
+    <tr>
+        <td>{{ producto.nombre }}</td>
+        <td>${{ producto.precio }}</td>
+    </tr>
+    {% empty %}
+    <tr>
+        <td colspan="2">
+            No existen productos registrados.
+        </td>
+    </tr>
+    {% endfor %}
+
+</table>
+
+{% endblock %}
