@@ -161,10 +161,3 @@ http://127.0.0.1:8000/
 **Modulo 6 - MODELO LOGIN/LOGOUT - Leccion 5** 
 
 **Alumno:** Jordan Carvajal - **Fecha:** 01-06-2026
-
-
-
-
-
-@Cyber123
-contrasena
